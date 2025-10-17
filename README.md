@@ -25,12 +25,43 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 ## CODE
-
+```
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Image Map</title> 
+    <style> 
+        img{ 
+            display: block; 
+            margin: auto; 
+            margin-top: 9%; 
+            border: 2px solid black; 
+        } 
+    </style> 
+</head> 
+<body> 
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" 
+height="379"> 
+    <map name="workmap"> 
+    <area shape="rect" coords="34,44,270,350" alt="Computer" 
+href="https://www.google.com/search?q=computer"> 
+    <area shape="rect" coords="290,172,333,250" alt="Phone" 
+href="https://www.google.com/search?q=phone"> 
+    <area shape="circle" coords="337,300,44" alt="Cup of coffee" 
+href="https://www.google.com/search?q=cup+of+coffee"> 
+    </map> 
+</body> 
+</html>
+```
 
 ## OUTPUT
+![alt text](<Screenshot 2025-10-17 091941.png>)
+![alt text](<Screenshot 2025-10-17 091912.png>)
 
-
-
+![alt text](<Screenshot 2025-10-17 091957.png>)
+![alt text](<Screenshot 2025-10-17 092010.png>)
 
 
 
